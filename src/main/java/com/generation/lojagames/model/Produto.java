@@ -30,7 +30,7 @@ public class Produto {
 	@NotBlank(message = "O atributo console é obrigatório") 
 	private String console;
 	
-	@NotBlank(message = "O atributo quantidade é obrigatório") 
+	@NotNull 
 	private Long quantidade;
 	
 	@NotNull(message = "Preço é obrigatório!")
